@@ -7,10 +7,10 @@ I also added road connectivity from the PMGSY programme and population data from
 All data came from SHRUG v2.1 by Development Data Lab, which is a free public platform that pre-processes village level data for all of India. You can download it at devdatalab.org/shrug_download.
 
 Data sources
-VIIRS annual nighttime lights — NOAA/NASA via SHRUG v2.1. This is satellite data measuring light intensity at ground level, updated every year. I used 2019 as the baseline and 2021 as the latest year available in SHRUG.
-PMGSY road connectivity — Ministry of Rural Development via SHRUG. Records which villages got paved roads and how many km were built. Road access means market access, which means economic activity.
-Census 2011 population — Registrar General of India via SHRUG. Used to stop large villages from dominating the ranking just because they have more total light. I normalize by population.
-Village names, states, districts — SHRUG location names file (shrid_loc_names.csv).
+VIIRS annual nighttime lights - NOAA/NASA via SHRUG v2.1. This is satellite data measuring light intensity at ground level, updated every year. I used 2019 as the baseline and 2021 as the latest year available in SHRUG.
+PMGSY road connectivity -Ministry of Rural Development via SHRUG. Records which villages got paved roads and how many km were built. Road access means market access, which means economic activity.
+Census 2011 population - Registrar General of India via SHRUG. Used to stop large villages from dominating the ranking just because they have more total light. I normalize by population.
+Village names, states, districts - SHRUG location names file (shrid_loc_names.csv).
 
 How to run it
 Install what you need:
