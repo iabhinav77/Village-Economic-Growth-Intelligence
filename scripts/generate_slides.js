@@ -1,8 +1,6 @@
 /**
  * Village Economic Growth Intelligence — Presentation
- * Kritter Software Technologies Assignment
- *
- * Reads output/top100_villages.csv and output/state_summary.csv
+ * It reads output/top100_villages.csv and output/state_summary.csv
  * and builds a 7-slide deck from your real results.
  *
  * Run: node scripts/generate_slides.js
